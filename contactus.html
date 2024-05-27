@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Form</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="worldmusic.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <div id="wrapper">
+            <br>
+            <header class="headercontainer">
+                <a href="index.html">
+                    <img src="sitelogo.png" alt="Music Around The World logo">
+                </a>
+                <h1>Global Music Explorer</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="genres.html">Genres</a></li>
+                        <li><a href="legends.html">Legends</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <br>
+            <main>
+                <h2 class="aligncenter">Contact Us</h2>
+    <p class="mainaligncenter">Have a question or comment? We'd love to hear from you! Fill out the form below and we'll get back to you as soon as possible.</p>
+    <form action="/submit_contact_form" method="post">
+        <div class="inputgroup">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="inputgroup">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="inputgroup">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="inputgroup">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+            </main>
+            <br><br><br><br><br><br>
+            <footer>
+                <p>&copy; 2024 Music Around The World | <a href="mailto:rodrigue.betema@gmail.com">rodrigue.betema@gmail.com</a></p>
+            </footer>
+        </div>
+    </body>
+</html>
